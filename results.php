@@ -14,14 +14,22 @@ $access_token = $_SESSION['access_token'];
 
 
 
+<<<<<<< HEAD
 $link= mysql_connect(HOST,DB_NAME,DB_PASS); //your DB info
+=======
+$link= mysql_connect("HOST","USER NAME","USER PASS"); //your DB info
+>>>>>>> 00a58e4bc2892ec5f567c9429140a8b482a7125a
   if(!$link){
 
    die('cannot connect: ' . mysql_error()); 
 }
 
 
+<<<<<<< HEAD
  $db= mysql_select_db(DB_NAME); //your db name
+=======
+ $db= mysql_select_db("DB NAME"); //your db name
+>>>>>>> 00a58e4bc2892ec5f567c9429140a8b482a7125a
 
   if(!$db){
     die('cannot select DB' . mysql_error());
